@@ -22,10 +22,14 @@ def d3_vicsek(N, v0, box_lim, timesteps, dt, **kwargs):
     
     # sphere of influence
     R = 1
+    # ensure quantities are integers
     timesteps = int(timesteps)
+    box_lim = int(box_lim)
+    # noise parameter
     eta = 0.5
     if ('eta') in kwargs:
         eta = kwargs['eta']
+    # dampening parameter
     dampening = 0.5
     if ('dampening') in kwargs:
         dampening = kwargs['dampening']
