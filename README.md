@@ -14,5 +14,6 @@ $$\theta_{i}(t+1) = tan^{-1}\left[\frac{\sum_{jâˆˆR}\sin(\theta_{j}(t)}{\sum_{jâ
 where the next angle is calculated from the sum of the previous angles with added noise, $e(t)$
 
 the simulation saves x, y, z, positions and velocities to be plotted later or assembled into an animation
+<br>
 please go through the jupyter notebook for a tutorial on how to use!
 enjoy  =^._.^=
