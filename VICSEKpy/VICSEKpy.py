@@ -23,10 +23,10 @@ def d3_vicsek(N, v0, box_lim, timesteps, dt, **kwargs):
     # sphere of influence
     R = 1
     timesteps = int(timesteps)
-    eta = .5
+    eta = 0.5
     if ('eta') in kwargs:
         eta = kwargs['eta']
-    dampening = .5
+    dampening = 0.5
     if ('dampening') in kwargs:
         dampening = kwargs['dampening']
     
