@@ -1,5 +1,6 @@
 # vicsekpy
-![My Image](animation26.png)
+<br>
+![My Image]('animation26.png')
 <br>
 VICSEKpy is a 3-dimensional active matter simulation based on the vicsek model; traditionaly done in 2-dimensions
 <br>
