@@ -11,8 +11,8 @@ the x, y, z, velocities are defined initially in spherical coordinates;
 $$x = v_{0}\sin(\theta)\cos(\phi),\qquad y = v_{0}\sin(\theta)\sin(\phi),\qquad z = -v_{0}\cos(\theta)$$
 the active matter behavior is a result of the angle update rule;
 <br>
-$$\theta_{i}(t+1) = tan^{-1}\left[\frac{\sum_{j∈R}\sin(\theta_{j}(t)}{\sum_{j∈R}\cos(\theta_{j}(t)}\right]+e(t)$$
-where the next angle is calculated from the sum of the previous angles with added noise, $e(t)$
+$$\theta_{i}(t+1) = tan^{-1}\left[\frac{\sum_{j∈R}\sin(\theta_{j}(t)}{\sum_{j∈R}\cos(\theta_{j}(t)}\right]+\epsilon(t)$$
+where the next angle is calculated from the sum of the previous angles with added noise, $\epsilon (t)$
 
 the simulation saves x, y, z, positions and velocities to be plotted later or assembled into an animation
 <br>
